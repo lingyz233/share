@@ -1,0 +1,4 @@
+#!/bin/sh
+mkdir /dev/shm/Download /dev/shm/WeiXin
+scp -prP 2222 root@192.168.0.242:/storage/emulated/0/tencent/MicroMsg/Download/* /dev/shm/Download
+scp -prP 2222 root@192.168.0.242:/storage/emulated/0/tencent/MicroMsg/WeiXin/* /dev/shm/WeiXin
